@@ -56,27 +56,36 @@
 }
 
 /* responsives */
+/* Dekstop */
+@media (min-width: 768px) {
+    #hero {
+        margin-top: 8rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
 /* Tablet */
 @media (max-width: 768px) {
     #hero {
         gap: 3rem;
-        margin-top: 4rem;
+        margin-top: 7rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }
 
-    .hero-text__container {
+    /* .hero-text__container {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
+    } */
 }
 
 /* Mobile */
 @media (max-width: 425px) {
     #hero {
         gap: 3rem;
-        margin-top: 3rem;
+        margin-top: 6rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }
