@@ -1,0 +1,32 @@
+/* NavBar Start */
+
+nav {
+    font-weight: bold;
+}
+
+nav > .container {
+    border-radius: 44px;
+    padding: 4px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    border: var(--text-color) 2px solid;
+}
+
+nav > .container > .navbar-brand > img {
+    width: 130px;
+}
+
+/* Animasi Hover */
+.navbar-nav > .nav-item:hover {
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-item > a:hover {
+    color: white;
+}
+
+/* NavBar End */
