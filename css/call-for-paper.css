@@ -1,0 +1,182 @@
+/* Call to Paper Title Section */
+.call-to-paper__title {
+    margin-top: 5rem;
+    color: var(--text-color);
+}
+
+.call-to-paper__title > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.call-to-paper__line {
+    border: 1.5px solid var(--text-color);
+    width: 60px;
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+    transform-origin: center;
+}
+
+.call-to-paper__line::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.call-to-paper__line:hover {
+    transform: scaleX(5);
+}
+/* End of Call to Paper Title Section */
+
+/* .call-to-paper__container {
+} */
+
+.call-to-paper__guide {
+    width: 100%;
+    gap: 6rem;
+    padding: 2rem;
+}
+
+.call-to-paper__guide-card {
+    max-width: 350px;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    border: 2px var(--text-color) solid;
+}
+
+.call-to-paper__guide-card > img {
+    background-color: white;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.call-to-paper__guide-card > article {
+    padding: 2rem;
+}
+
+.call-to-paper__guide-text {
+    max-width: 500px;
+}
+
+.call-to-paper__guide-text > article > hr {
+    border: 2px solid var(--accent-color);
+}
+
+.call-to-paper__activity {
+    width: 100%;
+    gap: 6rem;
+    padding: 2rem;
+}
+
+.call-to-paper__activity-card {
+    max-width: 350px;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    border: 2px var(--text-color) solid;
+}
+
+.call-to-paper__activity-card > img {
+    background-color: white;
+    border-radius: 1rem;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.call-to-paper__activity-card > article {
+    padding: 2rem;
+}
+
+.call-to-paper__activity-text {
+    max-width: 500px;
+}
+
+.call-to-paper__activity-text > article > hr {
+    border: 2px solid var(--accent-color);
+    margin-top: 0px;
+}
+
+.call-to-paper__acticle-container {
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.call-to-paper__acticle-container > button {
+    width: 100%;
+    background-color: var(--text-color);
+    color: white;
+}
+
+.call-to-paper__acticle-container > button:hover,
+.call-to-paper__acticle-container > button:focus,
+.call-to-paper__acticle-container > button:active {
+    background-color: var(--accent-color);
+}
+
+.call-to-paper__acticle-container > button:hover > a,
+.call-to-paper__acticle-container > button:focus > a,
+.call-to-paper__acticle-container > button:active > a {
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .call-to-paper__guide {
+        flex-direction: column !important;
+        gap: 2rem;
+        padding: 1rem;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .call-to-paper__activity {
+        flex-direction: column !important;
+        gap: 2rem;
+        padding: 1rem;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .call-to-paper__guide-card {
+        max-width: 100%;
+        /* background-color: var(--background-color);
+        border-radius: 1rem;
+        border: 2px var(--text-color) solid; */
+    }
+
+    .call-to-paper__guide-card > img {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    .call-to-paper__guide-text {
+        max-width: 100%;
+    }
+
+    .call-to-paper__activity-card {
+        max-width: 100%;
+    }
+
+    .call-to-paper__activity-card > img {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    .call-to-paper__activity-text {
+        max-width: 100%;
+    }
+}

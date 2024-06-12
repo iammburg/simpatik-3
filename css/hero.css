@@ -33,10 +33,22 @@
     padding-right: 2rem;
 }
 
+.btn-primary > a {
+    text-decoration: none;
+    color: white;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
     background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Change color of the link text when button is hovered */
+.btn-primary:hover > a,
+.btn-primary:focus > a,
+.btn-primary:active > a {
     color: var(--text-color);
 }
 
@@ -47,12 +59,37 @@
     padding-right: 2rem;
 }
 
+.btn-outline-primary > a {
+    text-decoration: none;
+    color: black;
+}
+
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
 .btn-outline-primary:active {
     background-color: var(--background-color);
     color: var(--text-color);
     border: 2px var(--accent-color) solid;
+}
+
+/* Change color of the link text when button is hovered */
+.btn-outline-primary:hover > a,
+.btn-outline-primary:focus > a,
+.btn-outline-primary:active > a {
+    color: var(--text-color);
+}
+
+.read-more {
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+
+.read-more > .bi-arrow-down {
+    transition: transform 0.3s ease-in-out;
+}
+
+.read-more > .bi-arrow-down:hover {
+    transform: translateY(1rem);
 }
 
 /* responsives */

@@ -5,9 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simpatik 3</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
     <link rel="icon" type="image/x-icon" href="./assets/images/simpatik-icon.ico" />
 
@@ -15,17 +17,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/call-for-paper.css" />
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#home">
-                    <img src="./assets/images/SIMPATIK_Logo.png" class="" alt="Simpatik" width="190" />
+                <a class="navbar-brand d-flex justify-content-center align-items-center" href="#home">
+                    <img src="./assets/images/SIMPATIK_Header_Logo.png"
+                        class="d-flex justify-content-center align-items-center" alt="Simpatik" width="180" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -55,9 +59,15 @@
                                 Simpatik
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Simpatik 1</a></li>
-                                <li><a class="dropdown-item" href="http://www.simpatikpolines.id/">Simpatik 2</a></li>
-                                <li><a class="dropdown-item" href="#">Simpatik 3</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Simpatik 1</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="http://www.simpatikpolines.id/">Simpatik 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Simpatik 3</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -71,28 +81,145 @@
         <section id="hero"
             class="container p-4 d-flex justify-content-center align-items-center flex-column flex-md-row">
             <div class="hero-text__container justify-content-start">
-                <img src="assets/images/SIMPATIK_Header_Logo.png" alt="Simpatik Logo">
-                <h4>CREATING SUSTAINABLE VALUE <br> AND GLOBAL COMPETITIVENESS MSMES</h4>
-                <p><b>Simposium Nasional Perbankan Akuntansi dan Keuangan (SIMPATIK)</b> adalah serangkaian acara berupa
-                    Seminar Nasional dan Call
-                    For Paper yang diadakan oleh Jurusan Akuntansi Politeknik Negeri Semarang </p>
+                <img src="assets/images/SIMPATIK_Header_Logo.png" alt="Simpatik Logo" />
+                <h4 class="fs-5">
+                    <b>1ST INTERNATIONAL</b> AND
+                    <b>3RD NATIONAL</b> SYMPOSIUM ON BANKING,
+                    ACCOUNTING, FINANCE, AND MANAGEMENT.
+                </h4>
+                <p>
+                    <b>Simposium Nasional Perbankan Akuntansi
+                        dan Keuangan (SIMPATIK)</b>
+                    adalah serangkaian acara berupa Seminar
+                    Nasional dan Call For Paper yang diadakan
+                    oleh Jurusan Akuntansi Politeknik Negeri
+                    Semarang.
+                </p>
                 <div class="container p-0">
                     <div class="d-flex flex-column flex-md-row gap-2">
-                        <button class="btn btn-primary w-md-auto btn-full-md"><a href=""></a> Register</button>
-                        <button type="button" class="btn btn-outline-primary w-md-auto btn-full-md">Get
-                            Poster</button>
+                        <button class="btn btn-primary w-md-auto btn-full-md fw-bold">
+                            <a href="">Register</a>
+                        </button>
+                        <button type="button" class="btn btn-outline-primary w-md-auto btn-full-md fw-bold">
+                            <a href="">Get Poster</a>
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="hero-img__container">
-                <img src="assets/images/hero-image.svg" alt="">
+                <img src="assets/images/hero-image.svg" alt="Finance Image" />
             </div>
         </section>
 
-        <!-- Selekngkapnya -->
-        <section></section>
+        <!-- Selengkapnya -->
+        <section class="read-more container-fluid d-flex flex-column justify-content-center align-items-center">
+            <h4 class="fw-bolder text-center">Selengkapnya</h4>
+            <i class="bi bi-arrow-down fw-bolder" style="font-size: 2rem"></i>
+        </section>
 
+        <!-- Call For Paper -->
+        <section
+            class="call-to-paper__title container-fluid d-flex flex-column justify-content-center align-items-center mb-4">
+            <div>
+                <h2 class="fw-bolder text-center">
+                    CALL FOR PAPER
+                </h2>
+                <div class="call-to-paper__line"></div>
+            </div>
+            <h5 class="fw-bolder">02 - 03 Oktober 2024</h5>
+        </section>
 
+        <section
+            class="call-to-paper__container container d-flex flex-column justify-content-center align-items-center">
+            <div class="call-to-paper__guide container d-flex flex-row justify-content-center align-items-start">
+                <div class="call-to-paper__guide-card d-flex flex-column justify-content-center align-items-center">
+                    <img src="assets/images/BUKPAN 1.png" alt="Buku Panduan" />
+                    <article>
+                        <h5 class="fw-bolder">Buku Panduan</h5>
+                        <p>
+                            Buku panduan Kegiatan Simposium
+                            Nasional Perbankan Akuntansi dan
+                            Keuangan (SIMPATIK 3)
+                        </p>
+                        <button class="btn btn-primary">
+                            <a href="">Klik Di Sini</a>
+                        </button>
+                    </article>
+                </div>
+                <div class="call-to-paper__guide-text">
+                    <article>
+                        <h4>
+                            CREATING SUSTAINABLE VALUE <br />
+                            AND GLOBAL COMPETITIVENESS MSMES
+                        </h4>
+                        <hr />
+                        <p class="text-start">
+                            <b>Simpatik (Simposium Nasional
+                                Perbankan Akuntansi dan Keuangan)</b>
+                            adalah serangkaian acara yang
+                            meliputi Seminar Nasional dan Call
+                            For Paper, yang diadakan oleh
+                            Jurusan Akuntansi Politeknik Negeri
+                            Semarang. Acara ini mengusung tema:
+                            <b>Akselerasi Halal Value Chain untuk
+                                Kemajuan Bisnis UMKM</b>. <br> Melalui
+                            narasumber terpercaya dan ahli di
+                            bidangnya, acara ini bertujuan untuk
+                            memberikan pengetahuan kepada para
+                            peserta, baik dari kalangan praktisi
+                            maupun akademisi, agar dapat
+                            memproyeksikan serta mengkritisi
+                            topik yang dibahas dalam forum
+                            ilmiah ini.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="call-to-paper__activity container d-flex flex-row justify-content-center align-items-end">
+                <div class="call-to-paper__activity-text">
+                    <article>
+                        <hr />
+                        <p>
+                            Acara ini sekaligus mengundang
+                            praktisi, industri, dinas pemerintah
+                            yang terkait dan akademisi untuk
+                            bergabung dan bekerjasama dalam
+                            berbagi pemikiran, gagasan, ide
+                            untuk dapat menciptakan suatu iklim
+                            investasi yang berkelanjutan dan
+                            fleksibel terhadap resiko investasi
+                            di masa depan.
+                        </p>
+                        <div
+                            class="call-to-paper__acticle-container d-flex flex-column justify-content-center align-items-center">
+                            <h6 class="fw-bolder">
+                                Upload Artikel
+                            </h6>
+                            <p>Silakan Upload Artikel Anda!</p>
+                            <button class="btn btn-primary">
+                                <a href="">Here</a>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                <!-- bismillah -->
+                <div class="call-to-paper__activity-card d-flex flex-column justify-content-center align-items-center">
+                    <img src="assets/images/ALUR 1.png" alt="Alur" />
+                    <article>
+                        <h5 class="fw-bolder">Alur Kegiatan</h5>
+                        <p>
+                            Alur Kegiatan Kegiatan Simposium
+                            Nasional Perbankan Akuntansi dan
+                            Keuangan (Simpatik 3)
+                        </p>
+                        <button class="btn btn-primary">
+                            <a href="">Klik Di Sini</a>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
