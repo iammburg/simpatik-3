@@ -51,11 +51,15 @@
     border: 2px var(--text-color) solid;
 }
 
-.call-to-paper__guide-card > img {
+.call-to-paper__img-container {
     background-color: white;
     border-radius: 1rem;
     width: 100%;
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 2rem;
+}
+
+.call-to-paper__img-container > img {
+    width: 100%;
 }
 
 .call-to-paper__guide-card > article {
