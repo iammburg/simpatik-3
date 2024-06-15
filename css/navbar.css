@@ -22,7 +22,7 @@ nav > .container > .navbar-brand > img {
 .navbar-nav > .nav-item:hover {
     background-color: var(--accent-color);
     color: white;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .nav-item > a:hover {

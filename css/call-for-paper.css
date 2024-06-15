@@ -149,11 +149,15 @@
 }
 
 @media (max-width: 768px) {
+    .call-to-paper__guide {
+        padding: 4px;
+    }
+    .call-to-paper__activity {
+        padding: 4px;
+    }
+
     .call-to-paper__guide-card {
-        max-width: 100%;
-        /* background-color: var(--background-color);
-        border-radius: 1rem;
-        border: 2px var(--text-color) solid; */
+        max-width: 55%;
     }
 
     .call-to-paper__guide-card > img {
@@ -169,7 +173,7 @@
     }
 
     .call-to-paper__activity-card {
-        max-width: 100%;
+        max-width: 55%;
     }
 
     .call-to-paper__activity-card > img {
@@ -181,6 +185,23 @@
     }
 
     .call-to-paper__activity-text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .call-to-paper__guide {
+        padding: 1rem;
+    }
+    .call-to-paper__activity {
+        padding: 1rem;
+    }
+
+    .call-to-paper__guide-card {
+        max-width: 100%;
+    }
+
+    .call-to-paper__activity-card {
         max-width: 100%;
     }
 }
