@@ -1,0 +1,76 @@
+/* Fees Title Section */
+.fees__title {
+    margin-top: 5rem;
+    color: var(--text-color);
+}
+
+.fees__title > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.fees__line {
+    border: 1.5px solid var(--text-color);
+    width: 60px;
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+    transform-origin: center;
+}
+
+.fees__line::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.fees__line:hover {
+    transform: scaleX(5);
+}
+/* End of Fees Title Section */
+
+.fees {
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.fees-container {
+    flex-wrap: wrap;
+}
+
+.fees__bubble {
+    width: 420px;
+}
+
+.fees__bubble img {
+    max-width: 100%;
+}
+
+.fees__regist-card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.fees__regist-card > button {
+    width: 100% !important;
+}
+
+.fees__regist-card > article > ul > li > div {
+    margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    .fees__bubble {
+        width: 300px;
+    }
+}

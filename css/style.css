@@ -12,6 +12,10 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+body {
+    background-color: #f0f8ff;
+}
+
 /* Color Palette */
 :root {
     --background-color: #bec5d9;
