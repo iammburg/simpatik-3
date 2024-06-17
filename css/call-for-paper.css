@@ -15,7 +15,7 @@
     border: 1.5px solid var(--text-color);
     width: 60px;
     position: relative;
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     transform-origin: center;
 }
 

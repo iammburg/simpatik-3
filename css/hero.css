@@ -29,9 +29,10 @@
     max-width: 100%;
 }
 
+/* Custom Button */
 .btn-primary {
     background-color: var(--accent-color);
-    border: 1px solid var(--background-color);
+    border: 1px solid var(--text-color);
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -44,7 +45,7 @@
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: var(--background-color);
+    background-color: #6cbe66;
     color: var(--text-color);
 }
 
@@ -81,6 +82,8 @@
 .btn-outline-primary:active > a {
     color: var(--text-color);
 }
+
+/* End Of Custom Button */
 
 .read-more {
     margin-top: 1rem;
