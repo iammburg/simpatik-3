@@ -1,3 +1,9 @@
+.call-for-paper {
+    width: 100%;
+    background-color: #d3e9fd;
+    padding-bottom: 2rem !important;
+}
+
 /* Call to Paper Title Section */
 .call-to-paper__title {
     margin-top: 5rem;
@@ -126,6 +132,10 @@
     width: 100%;
     background-color: var(--text-color);
     color: white;
+}
+
+.call-to-paper__button {
+    width: 100%;
 }
 
 .call-to-paper__acticle-container > button:hover,

@@ -108,6 +108,7 @@
     margin: 0 0 10px;
     text-transform: capitalize;
     font-weight: 500;
+    color: var(--accent-color);
 }
 
 .timeline-content p {

@@ -1,0 +1,36 @@
+/* Publication Title Section */
+.publication__title {
+    margin-top: 5rem;
+    color: var(--text-color);
+}
+
+.publication__title > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.publication__line {
+    border: 1.5px solid var(--text-color);
+    width: 60px;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+.publication__line::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.publication__line:hover {
+    transform: scaleX(5);
+}
+/* End of Publication Title Section */

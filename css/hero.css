@@ -32,7 +32,7 @@
 /* Custom Button */
 .btn-primary {
     background-color: var(--accent-color);
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--background-color);
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -112,7 +112,7 @@
 @media (max-width: 768px) {
     #hero {
         gap: 3rem;
-        margin-top: 7rem;
+        margin-top: 4.5rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }
@@ -128,7 +128,7 @@
 @media (max-width: 425px) {
     #hero {
         gap: 3rem;
-        margin-top: 6rem;
+        margin-top: 4rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }

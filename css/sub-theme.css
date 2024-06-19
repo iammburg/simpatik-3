@@ -1,3 +1,9 @@
+.sub-theme {
+    width: 100%;
+    background-color: #d3e9fd;
+    padding-bottom: 2rem !important;
+}
+
 /* Sub Theme Title Section */
 .sub-theme__title {
     margin-top: 5rem;
