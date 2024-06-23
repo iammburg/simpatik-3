@@ -1,0 +1,51 @@
+/* G-Form Title Section */
+.g-form__title {
+    margin-top: 6rem;
+    color: var(--text-color);
+}
+
+.g-form__title > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.g-form__line {
+    border: 1.5px solid var(--text-color);
+    width: 60px;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+.g-form__line::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.g-form__line:hover {
+    transform: scaleX(5);
+}
+/* End of G-Form Title Section */
+
+.g-form__container {
+    width: 100%;
+}
+
+.g-form__paper {
+    width: 100%;
+    background-color: var(--additional-color);
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.g-form__registrasi > .g-form__title {
+    margin-top: 4rem;
+}

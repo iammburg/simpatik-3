@@ -5,6 +5,7 @@ html,
 body {
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* Typhography */
@@ -25,4 +26,5 @@ p {
     --background-color: #c0e6ba;
     --accent-color: #25784a;
     --text-color: #3f201b;
+    --additional-color: #dae7f3;
 }

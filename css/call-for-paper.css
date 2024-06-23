@@ -1,6 +1,6 @@
 .call-for-paper {
     width: 100%;
-    background-color: #d3e9fd;
+    background-color: var(--additional-color);
     padding-bottom: 2rem !important;
 }
 

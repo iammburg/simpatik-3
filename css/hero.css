@@ -102,7 +102,7 @@
 /* Dekstop */
 @media (min-width: 768px) {
     #hero {
-        margin-top: 7rem;
+        margin-top: 6rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }
