@@ -1,5 +1,6 @@
 #hero {
     gap: 9rem;
+    margin-bottom: 3rem !important;
 }
 
 .hero-text__container {
@@ -18,25 +19,26 @@
 .hero-img__container {
     max-width: 350px;
     background-color: var(--background-color);
-    border-radius: 10px;
-    padding: 2rem;
+    border-radius: 32px;
+    padding: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out;
     display: inline-block;
-    position: relative;
+    position: relative; */
 }
 
-.hero-img__container:hover {
+/* .hero-img__container:hover {
     transform: translateY(-10px);
-}
+} */
 
 .hero-img__container > img {
     max-width: 100%;
     height: auto;
-    display: block;
+    /* display: block; */
+    border-radius: 24px;
 }
 
 /* Custom Button */
